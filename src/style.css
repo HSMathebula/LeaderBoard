@@ -12,7 +12,9 @@ body {
 }
 
 #title {
-  margin: 2em 0 2em 4.5em;
+  margin: 1em 0 1em 2.5em;
+  font-size: 55px;
+  color: #003747;
 }
 
 main {
@@ -31,6 +33,11 @@ main {
 .add-header {
   text-align: end;
   margin-bottom: 1em;
+  color: #003747;
+}
+
+.score-header {
+  color: #003747;
 }
 
 #score-data {
@@ -41,6 +48,18 @@ main {
 
 input {
   margin-bottom: 10px;
+  background: #ffeeda;
+  border: 2px solid #ebac64;
+  padding: 8px 16px;
+}
+
+button {
+  background: #ffeeda;
+  border: 2px solid #ebac64;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #003747;
 }
 
 aside {
@@ -54,9 +73,20 @@ section {
 }
 
 .result:nth-child(even) {
-  background: #ccc;
+  background: #ffcb8f;
 }
 
 .result:nth-child(odd) {
-  background: #fff;
+  background: #ffeeda;
+}
+
+.results {
+  border: 2px solid #ebac64!important;
+  color: #003747;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.result {
+  padding: 8px 16px;
 }
