@@ -72,6 +72,10 @@ section {
   min-width: 55%;
 }
 
+.result {
+  padding: 8px 16px;
+}
+
 .result:nth-child(even) {
   background: #ffcb8f;
 }
@@ -81,12 +85,8 @@ section {
 }
 
 .results {
-  border: 2px solid #ebac64!important;
+  border: 2px solid #ebac64 !important;
   color: #003747;
   overflow-y: scroll;
   height: 60vh;
-}
-
-.result {
-  padding: 8px 16px;
 }
